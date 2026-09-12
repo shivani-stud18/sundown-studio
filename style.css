@@ -452,34 +452,40 @@ p{
      background-color: #000000;
      color: #fff;
      bottom: 0;
-     padding: 2vw 4vw;
+     padding: 3vw 4vw;
 }
+
 
 #footer-uppr{
     display: flex;
     position: relative;
     justify-content: space-between;
-    padding: 1vw 2vw;
+    padding: 3vw 2vw;
+}
+#footer-uppr h2{
+    font-size: 5vw;
+}
+#email-para p{
+    font-size: 3vw;
 }
 #email-para h5{
     color:rgb(126, 123, 123);
-    margin-top: 1vw;
-    margin-left: 0;
-    font-size: 1vw;
-    border-bottom: 1px solid rgb(120, 115, 115);
+    margin-top: 2vw;
+    font-size: 2vw;
+    border-bottom: 1.5px solid rgb(120, 115, 115);
 }
 
 #footer-bottom img{
     width: 100%;
     border-bottom: 1px solid grey;
-    padding: 1vw 2vw;
+    padding: 6vw 2vw;
 }
 #footer-bottom div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2vw 2vw;
-    font-size: 1.3vw;
+    padding: 4vw 2vw;
+    font-size: 2vw;
     font-weight: 200;
     position: relative;
 }
