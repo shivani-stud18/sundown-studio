@@ -404,7 +404,7 @@ p{
 
    
 .page5{
-    min-height: 100vh;
+    height: 0;
     width: 100%;
     background-color: transparent;
     position: relative;
@@ -447,9 +447,10 @@ p{
 }
 .footer{
      position: fixed;
-     height: 100vh;
+     height: auto;
+     min-height: 0;
      width: 100%;
-     background-color: #000000;
+     background-color: #000;
      color: #fff;
      bottom: 0;
      padding: 2vw 4vw;
@@ -778,10 +779,12 @@ nav h3{
 
 
 .page5{
-    min-height:100vh;
+    height: 0;
 }
+
 .footer{
-    height: 100vh;
+    height: auto;
+    min-height: 0;
     padding: 1vw 6vw;
 }
 
@@ -925,7 +928,7 @@ nav img{
     padding-bottom:5vw;
 }
 .footer{
-    min-height: 100vh;
+    min-height: 0;
     height: auto;
 }
 #footer-uppr{
@@ -1032,12 +1035,13 @@ nav img{
     padding-bottom:6vw;
 }
 .page5{
-    min-height:100vh;
+    height: 0;
 }
 
 .footer{
-    height:100vh;
-    overflow:hidden;
+    height: auto;
+    min-height: 0;
+    overflow: hidden;
     padding: 4vw 3vw;
 }
 
