@@ -1,11 +1,11 @@
-if (window.innerWidth > 1024) {
+if (window.innerWidth >= 1024) {
     new LocomotiveScroll({
         el: document.querySelector("#main"),
         smooth: true,
     });
 }
 
-function page4Animation() {
+function projectHoverAnimation() {
     if (window.innerWidth <= 600) return;
 
     const elemC = document.querySelector("#elem-container");
@@ -65,6 +65,6 @@ function loader() {
 }
 
 swiperAnimation();
-page4Animation();
+projectHoverAnimation();
 menuAnimation();
 loader();

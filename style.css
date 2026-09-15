@@ -58,13 +58,13 @@ nav{
     font-weight: 500;
     color: black;
     transition: all ease 0.3s;
-    position: relative; /* compalsurey given the position of parent elm */
+    position: relative;
     font-size: 18px;
     overflow: hidden;
 }
 #nav-part2 h4::after{
     content: "";
-    position:absolute; /* parent elm ke respective me property lena */
+    position:absolute; 
     height: 100%;
     width: 100%;
     background: #000;
@@ -189,10 +189,10 @@ nav h3{
 }
 #moving-text{
      white-space: nowrap;
-     overflow-x: auto;   /*a particular div was scroll */
+     overflow-x: auto;   
 }
 #moving-text::-webkit-scrollbar{
-   display: none;     /*scroll bar was hidden0 */
+   display: none;     
 }
 #moving-text h1{
     font-size: 9vw;
@@ -365,7 +365,7 @@ p{
 }
 
 .page4{
-    height: 85vh;
+    height: 83vh;
     width: 100%;
     background-color: #EFEAE3;
     padding:  4vw 5vw;
@@ -404,7 +404,7 @@ p{
 
    
 .page5{
-    min-height: 100vh;
+    min-height: 190vh;
     width: 100%;
     background-color: transparent;
     position: relative;
@@ -1075,7 +1075,6 @@ nav img{
 }
 #email-para h5{
     font-size:1.4vw;
-    
 }
 
 
@@ -1083,7 +1082,6 @@ nav img{
     width:100%;
     height:auto;
     object-fit:contain;
-
     padding: 4vw 0vw;
 }
 
